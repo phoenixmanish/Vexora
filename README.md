@@ -3,7 +3,7 @@
 A fully working **Vector Database** built from scratch in C++ with a web UI.  
 Implements **HNSW**, **KD-Tree**, and **Brute Force** search algorithms side-by-side, plus a **RAG pipeline** powered by a local LLM via Ollama.
 
-> Built as an educational project to show how production vector databases like Pinecone, Weaviate, and Chroma actually work under the hood.
+.
 
 ---
 
@@ -45,16 +45,6 @@ Answer
 **HNSW (Hierarchical Navigable Small World)** is the same algorithm used by Pinecone, Weaviate, Chroma, and Milvus. It builds a multilayer graph where each layer is progressively sparser — searches start at the top layer and zoom in, achieving O(log N) complexity instead of O(N) for brute force.
 
 ---
-
-
-
-
-
-
-
-
-
-
 
 
 ## Using the Application
